@@ -9,17 +9,17 @@ https://github.com/alphacep/vosk-api
 https://alphacephei.com/ru/
 
 Google Speech Recognition:  
+My GoogleContinuousRecognition App: https://github.com/Mike-Kuznetsov/GoogleContinuousRecognition  
 Android: https://developer.android.com/reference/android/speech/SpeechRecognizer  
 Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text  
 Python: https://pypi.org/project/SpeechRecognition/  
-And program for Android in this repository
 
 Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
 
 WebSpeech API:  
+My AndroidWebSpeech App: https://github.com/Mike-Kuznetsov/AndroidWebSpeech  
 Usage example: https://codepen.io/harryheman/pen/VwppNgp  
 Docs: https://developer.mozilla.org/ru/docs/Web/API/Web_Speech_API  
-And program for Android in this repository
 
 Mail.ru (VK) Cloud Voice: https://mcs.mail.ru/cloud-voice/
 
