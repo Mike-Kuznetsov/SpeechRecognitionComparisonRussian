@@ -11,7 +11,7 @@ https://alphacephei.com/ru/
 Google Speech Recognition:  
 Android: https://developer.android.com/reference/android/speech/SpeechRecognizer  
 Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text  
-Python: https://pypi.org/project/SpeechRecognition/
+Python: https://pypi.org/project/SpeechRecognition/  
 And program for Android in this repository
 
 Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
