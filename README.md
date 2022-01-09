@@ -1,19 +1,21 @@
 # SpeechRecognitionComparisonRussian
 I tested few russian speech recognizers.
 
-Links:
+### Links:
 
-Vosk API:
-https://alphacephei.com/vosk/
-https://github.com/alphacep/vosk-api
+Vosk API:  
+https://alphacephei.com/vosk/  
+https://github.com/alphacep/vosk-api  
 https://alphacephei.com/ru/
 
-Google Speech Recognition
-Android: https://developer.android.com/reference/android/speech/SpeechRecognizer
-Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text
+Google Speech Recognition:  
+Android: https://developer.android.com/reference/android/speech/SpeechRecognizer  
+Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text  
 Python: https://pypi.org/project/SpeechRecognition/
 
-Yandex SpeechKit:
+Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
+
+WebSpeech API: https://codepen.io/harryheman/pen/VwppNgp
 
 Red - Not tested;
 Yellow - Tested on phone;
