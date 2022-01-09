@@ -1,0 +1,110 @@
+<!--
+I took this code just for testing purpose from https://codepen.io/harryheman/pen/VwppNgp
+Author - Igor Agapov
+-->
+<!DOCTYPE >
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+let final_transcript = "";
+let recognizing = false;
+let partialRes = "";
+let finalRes = "";
+const speechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+const recognition = new speechRecognition();
+recognition.continuous = true;
+recognition.interimResults = true;
+recognition.maxAlternatives = 3;
+recognition.lang = "ru-RU";
+
+recognition.onstart = () => {
+  document.body.style.background = 'red';
+};
+recognition.onerror = ({ error }) => {
+  document.body.style.background = 'blue';
+};
+recognition.onend = () => {
+  document.body.style.background = 'green';
+  if (!recognizing) return;
+  recognition.start();
+};
+recognition.onresult = (e) => {
+    if (e.results.length==1){
+        finalRes=finalRes+partialRes;
+    }
+    partialRes=e.results[e.results.length-1][0].transcript;
+    final_text.value =finalRes+partialRes+" ";
+
+
+
+
+  //final_text.value = final_text.value+","+e.results.length.toString();
+  //let interim_transcript = "";
+  //interim_text.value = interim_transcript;
+  //document.body.style.background = 'orange';
+};
+
+const DICTIONARY = {
+  точка: ".",
+  запятая: ",",
+  вопрос: "?",
+  восклицание: "!",
+  двоеточие: ":",
+  тире: "-",
+  абзац: "\n",
+  отступ: "\t"
+};
+
+function editInterim(s) {
+  return s
+    .split(" ")
+    .map((word) => {
+      word = word.trim();
+      return DICTIONARY[word] ? DICTIONARY[word] : word;
+    })
+    .join(" ");
+}
+
+function editFinal(s) {
+  return s.replace(/\s([\.+,?!:-])/g, "$1");
+}
+
+function startclick() {
+      final_transcript = "";
+      recognition.start();
+      recognizing = true;
+      final_text.value = "";
+      interim_text.value = "";
+
+}
+function stopclick() {
+      recognition.stop();
+      recognizing = false;
+}
+function abortclick() {
+      recognition.abort();
+      recognizing = false;
+}
+
+function clearclick() {
+      final_text.value = "";
+      finalRes = "";
+}
+
+    </script>
+</head>
+<body>
+<div id="wrapper">
+    <h1>Speech Recognition</h1>
+    <textarea id="final_text" cols="40" rows="30"></textarea>
+    <input type="text" id="interim_text" />
+
+        <input type="button" id="start" onclick="startclick()" value="Старт">
+        <input type="button" id="stop" onclick="stopclick()" value="Стоп">
+        <input type="button" id="abort" onclick="abortclick()" value="Сброс">
+        <input type="button" id="clear" onclick="clearclick()" value="Очистить">
+
+</div>
+</body>
+</html>
