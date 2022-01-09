@@ -1,5 +1,5 @@
 # SpeechRecognitionComparisonRussian
-I tested the most popular russian speech recognizers.
+I tested the most popular russian speech recognizers. https://www.youtube.com/channel/UCWN_KT_CAjGZQG5grHldL8w
 
 ### Links:
 
