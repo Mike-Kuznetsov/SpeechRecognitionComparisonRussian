@@ -12,11 +12,12 @@ Google Speech Recognition:
 Android: https://developer.android.com/reference/android/speech/SpeechRecognizer  
 Google Cloud Speech-to-Text: https://cloud.google.com/speech-to-text  
 Python: https://pypi.org/project/SpeechRecognition/
+And program for Android in this repository
 
 Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
 
 WebSpeech API: https://codepen.io/harryheman/pen/VwppNgp  
-+ Program for Android in this repository
+And program for Android in this repository
 
 Mail.ru (VK) Cloud Voice: https://mcs.mail.ru/cloud-voice/
 
