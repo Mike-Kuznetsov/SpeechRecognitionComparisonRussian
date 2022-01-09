@@ -1,5 +1,5 @@
 # SpeechRecognitionComparisonRussian
-I tested few russian speech recognizers.
+I tested the most popular russian speech recognizers.
 
 ### Links:
 
