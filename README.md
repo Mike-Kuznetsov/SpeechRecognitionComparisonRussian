@@ -16,7 +16,8 @@ And program for Android in this repository
 
 Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
 
-WebSpeech API: https://codepen.io/harryheman/pen/VwppNgp  
+WebSpeech API usage example: https://codepen.io/harryheman/pen/VwppNgp  
+Docs: https://developer.mozilla.org/ru/docs/Web/API/Web_Speech_API  
 And program for Android in this repository
 
 Mail.ru (VK) Cloud Voice: https://mcs.mail.ru/cloud-voice/
