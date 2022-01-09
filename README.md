@@ -15,7 +15,17 @@ Python: https://pypi.org/project/SpeechRecognition/
 
 Yandex SpeechKit: https://cloud.yandex.ru/services/speechkit
 
-WebSpeech API: https://codepen.io/harryheman/pen/VwppNgp
+WebSpeech API: https://codepen.io/harryheman/pen/VwppNgp  
++ Program for Android in this repository
+
+Mail.ru (VK) Cloud Voice: https://mcs.mail.ru/cloud-voice/
+
+Amazon Transcribe: https://aws.amazon.com/ru/transcribe/
+
+Wav2vec:  
+Russian: https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian  
+wav2vec tutorial: https://www.youtube.com/watch?v=Ivz-E2eBUZM  
+Github: https://github.com/pytorch/fairseq/tree/main/examples/wav2vec
 
 Red - Not tested;
 Yellow - Tested on phone;
