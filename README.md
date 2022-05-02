@@ -36,3 +36,9 @@ Red - Not tested;
 Yellow - Tested on phone;
 White - Tested on PC;
 ![alt text](https://github.com/Mike-Kuznetsov/SpeechRecognitionComparisonRussian/blob/main/spreadsheet.png?raw=true)
+
+I tested some services after i made this comparison, here're results:
+Sber Smartspeech - 0 0 0
+Tinkoff Voicekit - 0 3.5 4.5
+NLab Speech ASR - 0 3 4
+Silero - NT NT 3
