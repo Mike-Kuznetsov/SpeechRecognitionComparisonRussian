@@ -40,5 +40,5 @@ White - Tested on PC;
 I tested some services after i made this comparison, here're the results:   
 Sber Smartspeech - 0 0 0  
 Tinkoff Voicekit - 0 3.5 4.5  
-NLab Speech ASR - 0 3 4 
+NLab Speech ASR - 0 3 4   
 Silero - NT NT 3  
