@@ -34,8 +34,8 @@ Github: https://github.com/pytorch/fairseq/tree/main/examples/wav2vec
 
 Red - Not tested;
 Yellow - Tested on phone;
-White - Tested on PC;
-Columns: Service or toolkit name / Price for an hour / Offline mode / Quality of recognition with 3 different sound output volume levels
+White - Tested on PC;  
+Columns in english: Service or toolkit name / Price for an hour / Offline mode / Quality of recognition with 3 different sound output volume levels
 ![alt text](https://github.com/Mike-Kuznetsov/SpeechRecognitionComparisonRussian/blob/main/spreadsheet.png?raw=true)
 
 I tested some services after i made this comparison, here're the results:   
