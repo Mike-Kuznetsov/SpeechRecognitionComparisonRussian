@@ -1,7 +1,9 @@
 # SpeechRecognitionComparisonRussian
-I tested the most popular russian speech recognizers.  
-YouTube: https://www.youtube.com/c/MautozTech   
+I tested the most popular russian speech recognizers.
+Я протестировал наиболее популярные сервисы и библиотеки распознавания русской речи
 Video with results: https://www.youtube.com/watch?v=5aXNzigJ0c4
+YouTube: https://www.youtube.com/c/MautozTech   
+YouTube channel about programming: https://www.youtube.com/@ESPdev
 
 ### Links:
 
