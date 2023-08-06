@@ -1,4 +1,7 @@
 # SpeechRecognitionComparisonRussian
+UPD: At the time i did this comparison there were no OpenAI Whisper. Now i use it. 
+Когда я проводил тестирование, OpenAI Whisper еще не существовал, теперь я пользуюсь им.
+
 I tested the most popular russian speech recognizers.
 Я протестировал наиболее популярные сервисы и библиотеки распознавания русской речи
 Video with results: https://www.youtube.com/watch?v=5aXNzigJ0c4
