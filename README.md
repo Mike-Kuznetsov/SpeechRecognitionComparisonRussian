@@ -1,5 +1,5 @@
 # SpeechRecognitionComparisonRussian
-UPD: At the time i did this comparison there were no OpenAI Whisper. Now i use it. 
+UPD: At the time i did this comparison there were no OpenAI Whisper. Now i use it.   
 Когда я проводил тестирование, OpenAI Whisper еще не существовал, теперь я пользуюсь им.
 
 I tested the most popular russian speech recognizers.
