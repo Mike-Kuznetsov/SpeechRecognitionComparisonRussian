@@ -1,6 +1,6 @@
 # SpeechRecognitionComparisonRussian
-UPD: At the time i did this comparison there were no OpenAI Whisper. Now i use it.   
-Когда я проводил тестирование, OpenAI Whisper еще не существовал, теперь я пользуюсь им.
+UPD: At the time i did this comparison there were no OpenAI Whisper. Now i use it. And for recognizing voice commands for my smart home i use Orange Pi with Vosk.  
+Когда я проводил тестирование, OpenAI Whisper еще не существовал, теперь я пользуюсь им, а команды для умного дома распознает Orange Pi с Vosk.
 
 I tested the most popular russian speech recognizers.
 Я протестировал наиболее популярные сервисы и библиотеки распознавания русской речи
